@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "teaching-meetup.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "65af7680-d553-4e2f-a72b-137a1acf8b96",
+          "ip_hostname": "16.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 14149,
+          "port_start": 14148,
+          "region": "global",
+          "static_ip4": "147.185.221.16",
+          "tunnel_ip": "2602:fbaf:0:1::10"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-07T19:20:46.543732Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "25317806-8485-40ef-b53b-47fe7f7795c8",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "ea4470dc-a974-49d0-a591-70eacd1317bb",
+          "agent_name": "IPDanteFija",
+          "local_ip": "127.0.0.1",
+          "local_port": 14148
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  }
+}
